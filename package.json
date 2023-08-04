@@ -1,0 +1,19 @@
+{
+  "name": "airdao-error-provider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambrosus/error-provider.git"
+  },
+  "author": "airdao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambrosus/error-provider/issues"
+  },
+  "homepage": "https://github.com/ambrosus/error-provider#readme"
+}
