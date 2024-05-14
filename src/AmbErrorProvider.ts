@@ -55,7 +55,7 @@ export class AmbErrorProviderWeb3 extends ethers.providers.Web3Provider {
   }
 }
 
-export class AmbErrorProvider extends ethers.providers.JsonRpcProvider {
+export class AmbErrorProvider extends ethers.providers.StaticJsonRpcProvider {
   // Populates "from" if unspecified, and estimates the gas for the transaction
   async estimateGas(transaction: any): Promise<BigNumber> {
     try {
